@@ -1,9 +1,9 @@
-sudo pacman -Sy nextcloud-client qpwgraph git github-desktop dpkg firefox lynis steam wine protontricks qbittorrent tor torbrowser-launcher
+sudo pacman -Sy nextcloud-client qpwgraph dpkg firefox lynis steam wine protontricks qbittorrent tor torbrowser-launcher
 # Caelesthia Dots
 git clone https://github.com/caelestia-dots/caelestia.git ~/.local/share/caelestia
 ~/.local/share/caelestia/install.fish --noconfirm --spotify --discord --aur-helper=yay
 # This one is obvious
-yay -S visual-studio-code-bin --noconfirm
+yay -S visual-studio-code-bin github-desktop planify --noconfirm
 mkdir -p ~/Pictures/Wallpapers
 mkdir -p ~/ISO
 # Hardening script from a pookie of mine <3
